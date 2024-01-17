@@ -1,0 +1,54 @@
+body {
+  background-color: darkslategrey;
+}
+.centerTable{
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+    width=50%;
+    padding:10px;
+}
+.center{
+    display:block;
+    width=50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#demo{
+    width:720px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    height:70px;
+    padding: 20px 10px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: burlywood;
+    font-weight: bold;
+    font-style: italic;
+    color:darkslategray;
+}
+.container-fluid{
+    background-color: burlywood;
+    color:black;
+    font-weight:bold;
+
+}
+.dropdown-item{
+    font-weight: bold;
+}
+.dropdown{
+    font-weight:bold;
+    color: black;
+}
+.dropdown-menu{
+    background-color: burlywood;
+    color: black;
+}
+.dropdown-item{
+    color:black;
+}
