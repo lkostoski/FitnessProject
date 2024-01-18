@@ -52,3 +52,6 @@ footer{
 .dropdown-item{
     color:black;
 }
+footer>a{
+    color:darkslategray;
+}

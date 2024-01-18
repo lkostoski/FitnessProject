@@ -1,10 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <title>Title</title>
+        <style>
+            body{
+                background-color: darkslategray;
+            }
+            #title{
+                display: block;
+                width:100%;
+                height: 200px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #anatomy{
+                display:block;
+                margin-left:auto;
+                margin-right: auto;
+            }
+            .heading{
+                text-align: center;
+                color:burlywood;
+            }
+        </style>
     </head>
     <body>
-        <h1>STELLAR STRENGTH</h1>
+        <img id="title" src=Photos/stellartitle.jpg>
+        <h1 class="heading">Click on your deisred muscle:</h1>
+        <img id="anatomy" src=photos/anatomybetter.jpg usemap=#mymap>
+        <map name="mymap">
+            <area shape="poly" coords="112,120,111,158,124,184,153,196,182,177,192,152,190,111,151,149" href="Neck.html" alt="neck">
+            <area shape="poly" coords="51,171,109,144,112,167,120,182" href="" alt="left trap">
+            <area shape="poly" coords="193,145,190,165,173,188,221,177,260,172" href="" alt="right trap">
+            <area shape="poly" coords="13,268,31,235,91,178,38,176,7,204,1,232" href="" alt="left shoulder">
+            <area shape="poly" coords="219,180,242,207,271,227,294,258,298,270,309,231,296,195,270,174" href="" alt="right shoulder">
+            <area shape="poly" coords="40,232,64,292,107,305,140,296,149,278,146,200,116,185,94,179,68,211" href="" alt="left chest">
+            <area shape="poly" coords="156,197,160,276,167,295,207,304,232,299,242,287,250,270,268,230,240,209,220,183,217,176" href="" alt="right chest">
+            <area shape="poly" coords="106,310,151,310,151,522,117,480,107,382,101,319" href="" alt="left abs">
+            <area shape="poly" coords="162,311,161,519,197,481,205,383,213,309" href="" alt="right abs">
+            <area shape="poly" coords="44,254,64,297,92,344,97,398,106,456,95,470,67,442,75,401" href="" alt="left oblique">
+            <area shape="poly" coords="253,293,214,355,210,468,219,474,228,465,242,447,234,423" href="" alt="right oblique">
+            <area shape="poly" coords="36,232,16,272,5,325,16,356,29,362,45,352,58,313" href="" alt="left bicep">
+            <area shape="poly" coords="271,233,257,276,257,306,272,362,289,365,304,331,305,292,295,261" href="" alt="right bicep">
+            <area shape="poly" coords="18,497,3,408,16,370,27,363,40,370,49,414,38,507,29,514" href="" alt="left forearm">
+            <area shape="poly" coords="283,510,265,415,277,367,292,368,303,383,309,428,301,505,293,517" href="" alt="right forearm">
+            <area shape="poly" coords="158,542,157,675,134,712,112,704,90,636,94,546,104,503" href="" alt="left quad">
+            <area shape="poly" coords="160,541,163,674,191,706,205,706,228,658,230,611,213,503" href="" alt="right quad">
+            <area shape="poly" coords="63,453,96,474,102,504,89,558,84,582,72,633,60,562" href="" alt="left glute front">
+            <area shape="poly" coords="242,621,254,532,247,462,225,470,215,494" href="" alt="right glute front">
+            <area shape="poly" coords="97,745,122,762,127,880,134,906,141,922,116,902,93,827" href="" alt="left calve front left">
+            <area shape="poly" coords="153,728,135,781,132,834,132,864,153,903,152,858,157,831" href="" alt="left calve front right">
+            <area shape="poly" coords="162,722,180,771,184,815,185,867,164,901" href="" alt="right calve front left">
+            <area shape="poly" coords="186,923,202,903,221,823,223,770,217,746,199,763" href="" alt="right calve front right">
+            <area shape="poly" coords="481,168,549,188,621,167,587,150,553,107,517,148" href="" alt="back traps">
+            <area shape="poly" coords="403,280,460,215,491,201,545,189,477,170,414,195,397,220,395,245" href="" alt="left shoulder back">
+            <area shape="poly" coords="553,189,626,211,694,286,703,248,695,205,622,166" href="" alt="right shoulder back">
+            <area shape="poly" coords="441,238,477,251,511,252,540,312,547,317,562,308,588,251,609,257,654,244,624,214,550,190,488,202" href="" alt="upper back">
+            <area shape="poly" coords="441,242,454,283,454,317,464,360,508,430,540,314,512,255" href="" alt="left lat">
+            <area shape="poly" coords="593,428,612,411,638,354,646,324,642,299,655,245,605,259,590,255,560,310,564,315" href="" alt="right lat">
+            <area shape="poly" coords="551,494,567,455,592,428,559,314,551,323,540,315,510,427,535,452" href="" alt="lower back">
+            <area shape="poly" coords="464,365,472,406,457,482,455,527,480,465,507,432" href="" alt="left oblique back">
+            <area shape="poly" coords="464,365,472,406,457,482,455,527,480,465,507,432" href="" alt="right oblique back">
+            <area shape="poly" coords="475,661,459,598,455,533,481,469,507,431,533,453,546,487,547,502,550,510,557,486,570,450,594,429,645,537,641,621,629,663,615,610,608,569,589,550,563,541,551,563,538,545,515,547,494,572" href="" alt="glutes">
+            <area shape="poly" coords="492,735,490,704,474,665,490,617,495,577,514,550,530,551,539,548,552,562,564,546,587,552,606,577,616,632,629,668,612,708,608,733,588,677,582,697,574,723,558,745,553,629,552,568,547,631,544,678,542,721,542,741,526,713,512,674,502,719,496,725" href="Hamstrings.html" alt="hamstrings">
+            <area shape="poly" coords="511,889,519,804,541,870,543,746,524,720,508,716,492,734,483,786,486,835" href="" alt="left calve">
+            <area shape="poly" coords="558,875,555,802,557,747,576,724,588,717,598,722,607,731,612,838,586,886,580,801" href="" alt="right calve">
+            <area shape="poly" coords="404,281,401,347,423,341,432,349,438,357,444,355,453,317,449,261,439,240" href="" alt="left tricep">
+            <area shape="poly" coords="657,246,646,295,655,353,674,357,683,339,688,338,698,346,701,320,698,287,683,272" href="" alt="right tricep">
+            <area shape="poly" coords="401,352,400,412,405,475,413,522,411,537,428,533,434,515,434,496,444,451,443,414,444,355,432,361,424,341,411,344" href="" alt="left foerarm back">
+            <area shape="poly" coords="654,355,655,402,655,432,661,468,667,501,667,520,690,540,698,474,702,431,702,407,693,375,700,350,688,341,681,354,669,360" href="" alt="right forearm back">
+            
+        </map>
+        
     </body>
 </html>
