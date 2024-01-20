@@ -1,12 +1,207 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
 
+        <h1>WEIGHT GAIN IN FITNESS</h1>
+
+
+
+
+
+
+     <style>
+         body{
+             color:burlywood;
+             background-color: darkslategray;
+                }
+        h1{
+            text-align: center;
+            font-size: xx-large;
+            text-decoration: underline;
+                }
+        
+        #intro{
+            color:burlywood;
+            font-family:'Courier New', Courier, monospace;
+            font-size: x-large;
+            font-weight: 900;
+
+        }
+        #caloricSurplus{
+            margin-top: 75px;
+            float:left;
+            color:white;
+            background-color:blue;
+            display: inline;
+            font-size:xx-large;
+            padding:-5px;
+        }
+        
+
+        
+        #foodImg{
+            margin-top: 145px; 
+            
+            margin-left: 2px;
+        }
+        #textSurplus{
+            text-align:justify;
+            font-size: large;
+
+        }
+        #strenghtId{
+            font-size: xx-large;
+            color:aliceblue;
+            background-color: blue;
+            display: inline;
+            margin-top:120px;
+            float:left;
+
+        }
+        #strenghtImg{
+            margin-top: 170px;
+            
+            margin-left: 2px;
+            
+
+
+        }
+        #strenghtText{
+            font-size: large;
+            margin-top: 20px;
+        }
+        hr{
+            height:1px;
+            margin-top: 100px;
+        }
+        #proteinId{
+            font-size: xx-large;
+            color: aliceblue;
+            background-color: blue;
+            display: inline;
+        }
+        #proteinText{
+            font-size: large;
+
+        }
+        #button1{
+            background-color: aqua;
+            bottom:10px;
+            right:0px;
+            font-size:large;
+            position:fixed;
+            float:left;
+        } 
+        
+        #button1:hover{
+            background-color: chartreuse;
+        }
+
+        #button2{
+            background-color: aqua;
+            font-size:large;
+            position:fixed;
+            bottom:10px;
+            left:0px;
+            
+
+        }
+
+        #button2:hover{
+            background-color: chartreuse;
+        }
+
+    
         </style>
+        
     </head>
     <body>
-        <footer></footer>
-        <script></script>
+
+        <p id="intro">Gaining weight in the context of fitness typically refers to implementing methods like surplus calorie intake , high protein intake and utilizing strenght training techniques with a goal of increasing one`s body weight.The main porpose of this practice is to add muscle mass weight in the body , althought some fat increase may be unavoidable.</p>
+        
+        <div id="caloricSurplus">
+           CALORIC SURPLUS
+        </div>
+
+        <div id="foodImg">
+            <img src="images\article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg" width="250" height="150">
+        </div>
+        <div id="textSurplus"> 
+            
+        Gaining weight in fitness requires maintaining a caloric surplus, consuming more calories than the body expends. Calculating daily caloric needs based on factors like age, gender, and activity level is essential. The surplus, typically ranging from 250 to 500 calories per day, supports weight gain, with a focus on muscle mass rather than fat. Emphasizing nutrient-dense foods, including lean proteins and whole grains, ensures that the extra calories contribute to muscle growth. Monitoring progress and making adjustments based on weight, body composition, and performance in the gym helps achieve targeted weight gain in a controlled and health-conscious manner.  
+        </div>
+        <hr>
+        
+        <div id="strenghtId">
+            STRENGHT TRAINING
+        </div>
+
+        <div id="strenghtImg">
+            <img src="images\muscular-man-barbell-bicep-curls.webp" width="250" height="150">
+        </div>
+
+        <div id="strenghtText">
+            Engaging in strength training is crucial for gaining muscle mass. This involves performing exercises that specifically target different muscle groups. These workouts typically include lifting weights or using resistance, which creates tension in the muscles, prompting them to adapt and grow. The stress placed on the muscles during strength training activates a process of muscle protein synthesis, contributing to increased muscle mass over time. Consistent and progressive strength training, focusing on compound exercises like squats and bench presses, is key for achieving effective muscle growth and overall strength development.
+        </div>
+
+        <hr>
+
+        <div id="proteinId" >
+            HIGH PROTEIN INTAKE
+        </div>
+
+        <div>
+            <img src="images\istockphoto-1357284270-170667a.webp" width="250" height="150">
+        </div>
+
+        <div id="proteinText">
+            Ensuring sufficient protein intake is essential for effective muscle growth. Aim to consume between 1.6 to 2.2 grams of protein per kilogram of body weight, providing the necessary amino acids for muscle repair and synthesis. Incorporate protein-rich foods like lean meats, dairy products, eggs, legumes, and plant-based protein sources into your diet. These foods offer a diverse range of nutrients and amino acids crucial for supporting the muscle-building process. Consistency in meeting your protein requirements, especially in combination with a well-balanced diet and strength training, promotes optimal conditions for muscle development and recovery.
+        </div>
+
+
+
+
+
+        <button id="button1">Go to top</button>
+        <button id="button2">Previous Page</button>
+
+
+
+        <footer style="font-size: large; text-align: center; color:burlywood ">&copy; CHRISTOS KYRTSIOS CITY COLLEGE</footer>
+
+        
+       
+
+
+
+       
+
+       
+
+
+        <script>
+            function goToTop(){
+                window.location.href="C:/fitnessproject/FitnessProject/gaining weight.html"
+
+            }
+
+            document.addEventListener('DOMContentLoaded',function(){
+                var x=document.getElementById('button1');
+                x.addEventListener('click',goToTop);
+
+
+
+
+            function previousPage(){
+                window.location.href="C:/fitnessproject/FitnessProject/Glutial muscles.html"
+            }
+
+            var y=document.getElementById('button2');
+            y.addEventListener('click',previousPage);
+
+
+
+            });
+        </script>
     </body>
 </html>
