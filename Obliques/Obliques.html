@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <title>Obliques</title>
+    <style>
+        h1{
+            display: block;
+            margin: auto;
+            text-align: center;
+            
+            
+        }
+        
+        body{
+            background-color: darkslategray;
+            color: burlywood;
+        }
+        #orange{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            border:1px solid black;
+            display: inline;
+            background-color: orange;
+            position: relative;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #red{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            margin-top: 0px;
+            border:1px solid black; margin-bottom: 0px;
+            display: inline;
+            background-color: crimson;
+            font-family: 'Times New Roman', serif;
+            cursor: pointer;
+        }
+        #brown{
+            font-size: large;
+            font-weight: 400px;
+            margin-left: -5px;
+            border: 1px solid black;
+            display: inline;
+            background-color: brown;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #Exersises{
+            text-align: center;
+            font-family:'Serif Fonts','Sans-Serif Fonts';
+            font-size: xx-large;
+            font-weight: 900;
+            padding: block;
+            display: block;
+            background-color: darkslategray;
+            color: burlywood;
+            text-decoration: underline;
+        }
+        #Bicycle-Crunch{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+        }
+        #some_id{
+            background-color: aquamarine;
+            font-size: large;
+        }
+        #some_id:hover{
+            background-color: chartreuse;
+            
+        }
+        #colorId{
+            color: burlywood;
+            font-size: x-large;
+            list-style-type: lower-latin;
+        }
+        #some_id2{
+            background-color: aqua;
+            font-size: large;
+            position: fixed;
+            bottom: 15px;
+            right: 5px;
+        }
+        #some_id2:hover{
+            background-color: chartreuse;
+        }
+        #Cable-Woodchop{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+            
+        }
+        .boxContainer{
+            text-decoration: underline;
+        }
+        
+        
+        
+    </style>
+    <head>
+    
+    
+    <h1><span class="boxContainer" >OBLIQUES WORKOUT</span></h1>
+    
+    </head>
+    <body>
+    <p style="font-family: 'Courier New', Courier,monospace;font-size: x-large;color: burlywood; text-align: justify; font-weight: 400;"></p>
+    <span>
+        <img src="Oblique.jpg" width="500px" height="400">
+    </span>
+        
+    <span>
+    <h2 id="Exercises">Exercises targeting the obliques muscles</h2></span>
+        
+    <div>
+        <h2 id="Bicycle-Crunch">BICYCLE CRUNCH</h2>
+    </div>
+        
+    <div>
+        <img src="bicycle.gif" width="400px" height="450" >
+    </div>
+        
+    <div id="colorId">
+        <ul>
+            <li style="text-decoration: underline;" ><strong>INSTUCTIONS:</strong></li>
+             <Ol>
+                 <li>Lie face up on your mat and place your hands behind your head, lightly supporting it with your fingers. Bring the knees into the chest and lift the shoulder blades off the floor without pulling on the neck.</li>
+                 <li>Rotate to the left, bringing the right elbow towards the left knee as you fully straighten the other leg.</li>
+                 <li>Pause for a count, then switch sides, bringing the left elbow towards the right knee. Make this exercise harder by fully extending your legs in the start position, feet six inches above the ground, and initiating your reps from there—each time, your feet should return to this fully extended position. Controlling your reps in this way will decrease the amount of effective work you can do.</li>
+                 <li>Try 3-4 sets of 10-12 reps total (5-6 each side).</li>
+            
+             </Ol>
+        </ul>
+        
+        </div>
+        
+        <div>
+            <h2 id="Cable-Woodchop">CABLE WOODCHOP</h2>
+        </div>
+        
+        <div>
+            <img src="cablewoodchop.gif" width="500px" height="400">
+        </div>
+        
+        <div id="colorId">
+            <ul>
+                <li style="text-decoration: underline;"><strong>INSTUCTIONS:</strong></li>
+                <ol>
+                    <li>Attach a rope to a cable tower, and move the cable to the highest pulley position.</li>
+                    <li>Grab both handles of the rope and then kneel down onto one knee, your shoulders perpendicular to the stack.</li>
+                    <li>With arms extended over the opposite shoulder, look straight ahead and pull the rope across your body finishing the movement at waist level.</li>
+                    <li>Slowly bring the weight back to the start position and repeat the movement. Be sure to keep your core and abs tight at all times.</li>
+                    <li>Try 3-4 sets of 8-10 controlled reps followed immediately by a single, lighter set of 20-25.</li>
+                </ol>
+            </ul>
+        </div>
+        
+        
+        
+        
+        <button id="some_id">Previous page</button>
+        <button id="some_id2">Next page</button>
+        
+        <footer style="font-size: large; text-align: center; color: burlywood "> ANASTASIOS MEGALOS CITY COLLEGE</footer>
+        
+        
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                
+            var x=document.getElementById('some_id');
+            x.addEventListener('click',button);
+                
+                
+            function button(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Abs/Abs.html    "
+            }
+                
+                });
+            
+            
+            function pointToSection(CableWoodchop){
+            var X=document.getElementById(Cable-Woodchop);
+            X.scrollIntoView({behavior:'smooth'});
+                
+            }
+            document.addEventListener('DOMContentLoaded',function(){
+            var y=document.getElementById('some_id2');
+            y.addEventListener('click',button2);
+                
+                
+            function button2(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Calves/Calves.html"
+            }
+                
+                });
+            
+            
+            function pointToSection(BicycleCrunch){
+            var s=document.getElementById(Bicycle-Crunch);
+            s.scrollIntoView({behavior:'smooth'});
+                
+                
+            }
+            
+        </script>
+    </body>
+</html>

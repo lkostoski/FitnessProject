@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <title>Abs</title>
+    <style>
+        h1{
+            display: block;
+            margin: auto;
+            text-align: center;
+            
+            
+        }
+        
+        body{
+            background-color: darkslategray;
+            color: burlywood;
+        }
+        #orange{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            border:1px solid black;
+            display: inline;
+            background-color: orange;
+            position: relative;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #red{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            margin-top: 0px;
+            border:1px solid black; margin-bottom: 0px;
+            display: inline;
+            background-color: crimson;
+            font-family: 'Times New Roman', serif;
+            cursor: pointer;
+        }
+        #brown{
+            font-size: large;
+            font-weight: 400px;
+            margin-left: -5px;
+            border: 1px solid black;
+            display: inline;
+            background-color: brown;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #Exersises{
+            text-align: center;
+            font-family:'Serif Fonts','Sans-Serif Fonts';
+            font-size: xx-large;
+            font-weight: 900;
+            padding: block;
+            display: block;
+            background-color: darkslategray;
+            color: burlywood;
+            text-decoration: underline;
+        }
+        #Hardstyle-Plank{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+        }
+        #some_id{
+            background-color: aquamarine;
+            font-size: large;
+        }
+        #some_id:hover{
+            background-color: chartreuse;
+            
+        }
+        #colorId{
+            color: burlywood;
+            font-size: x-large;
+            list-style-type: lower-latin;
+        }
+        #some_id2{
+            background-color: aqua;
+            font-size: large;
+            position: fixed;
+            bottom: 15px;
+            right: 5px;
+        }
+        #some_id2:hover{
+            background-color: chartreuse;
+        }
+        #Cannonball{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+            
+        }
+        .boxContainer{
+            text-decoration: underline;
+        }
+        
+        
+        
+    </style>
+    <head>
+    
+    
+    <h1><span class="boxContainer" >ABS WORKOUT</span></h1>
+    
+    </head>
+    <body>
+    <p style="font-family: 'Courier New', Courier,monospace;font-size: x-large;color: burlywood; text-align: justify; font-weight: 400;"></p>
+    <span>
+        <img src="abs.jpg" width="600px" height="300">
+    </span>
+        
+    <span>
+    <h2 id="Exercises">Exercises that involve the muscles in the abdominal region</h2></span>
+        
+    <div>
+        <h2 id="Hardstyle-Plank">HARDSTYLE PLANK</h2>
+    </div>
+        
+    <div>
+        <img src="plank.gif" width="400px" height="450" >
+    </div>
+        
+    <div id="colorId">
+        <ul>
+            <li style="text-decoration: underline;" ><strong>EXECUTION OF THE EXERCISE</strong></li>
+             <ul>
+                 <li>Lying face down on the ground, prop yourself up into a forearm plank position. Make sure your elbows are aligned underneath your shoulders, and that your hands are balled up in fists. Your forearms should be parallel to one another. Hold for 10 to 20 seconds per set.</li>
+            
+             </ul>
+             <li style="margin:20px; margin-left: 3px; text-decoration: underline;"><strong>TIP</strong></li>
+             <ul>
+                 <li>The key is to squeeze your entire body(quads, glutes, core, back, and fists)as tight as possible while taking diaphoretic breathes throughout the hold.</li>
+             </ul>
+        </ul>
+        
+        </div>
+        
+        <div>
+            <h2 id="Cannonball">CANNONBALL</h2>
+        </div>
+        
+        <div>
+            <img src="cannonball.gif" width="400px" height="450">
+        </div>
+        
+        <div id="colorId">
+            <ul>
+                <li style="text-decoration: underline;"><strong>EXECUTION OF THE EXERCISE</strong></li>
+                <ul>
+                    <li>Get into a cannonball-type shape on your back, hugging your knees into your chest.Simultaneously extend your legs and arms outwards into a “hollow” position, pressing your lower back to the floor. Hold for five seconds before curling up again, and complete five reps for one set.</li>
+                </ul>
+                <li style="margin: 20px; margin-left: 3px; text-decoration: underline;"><strong>TIP</strong></li>
+                <ul>
+                    <li>Engage as much as possible during the extension phase, and use the cannonball for recovery.</li>
+                </ul>
+
+            </ul>
+        </div>
+        
+        
+        
+        
+        <button id="some_id">Previous page</button>
+        <button id="some_id2">Next page</button>
+        
+        <footer style="font-size: large; text-align: center; color: burlywood "> ANASTASIOS MEGALOS CITY COLLEGE</footer>
+        
+        
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                
+            var x=document.getElementById('some_id');
+            x.addEventListener('click',button);
+                
+                
+            function button(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Upper%20Back/Upper%20Back.html"
+            }
+                
+                });
+            
+            
+            function pointToSection(Cannonball){
+            var X=document.getElementById(Cannonball);
+            X.scrollIntoView({behavior:'smooth'});
+                
+            }
+            document.addEventListener('DOMContentLoaded',function(){
+            var y=document.getElementById('some_id2');
+            y.addEventListener('click',button2);
+                
+                
+            function button2(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Obliques/Obliques.html"
+            }
+                
+                });
+            
+            
+            function pointToSection(HardstylePlank){
+            var s=document.getElementById(Hardstyle-Plank);
+            s.scrollIntoView({behavior:'smooth'});
+                
+                
+            }
+            
+        </script>
+    </body>
+</html>

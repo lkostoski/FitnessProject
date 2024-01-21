@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    <title>Forearm</title>
+    <style>
+        h1{
+            display: block;
+            margin: auto;
+            text-align: center;
+            
+            
+        }
+        
+        body{
+            background-color: darkslategray;
+            color: burlywood;
+        }
+        #orange{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            border:1px solid black;
+            display: inline;
+            background-color: orange;
+            position: relative;
+            font-family:'Times New Roman', serif;
+            
+            
+            
+        }
+        #red{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            margin-top: 0px;
+            border:1px solid black; margin-bottom: 0px;
+            display: inline;
+            background-color: crimson;
+            font-family:'Times New Roman', serif;
+            cursor: pointer;
+        }
+        #brown{
+            font-size: large;
+            font-weight: 400px;
+            margin-left: -5px;
+            border: 1px solid black;
+            display: inline;
+            background-color: brown;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #Exersises{
+            text-align: center;
+            font-family:'Serif Fonts','Sans-Serif Fonts';
+            font-size: xx-large;
+            font-weight: 900;
+            padding: block;
+            display: block;
+            background-color: darkslategray;
+            color: burlywood;
+            text-decoration: underline;
+        }
+        #Pull-Up{
+            text-align: center;
+            color: white;
+            background-color: grey;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+        }
+        #some_id{
+            background-color: aquamarine;
+            font-size: large;
+        }
+        #some_id:hover{
+            background-color: chartreuse;
+            
+        }
+        #colorId{
+            color: burlywood;
+            font-size: x-large;
+            list-style-type: lower-latin;
+        }
+        #some_id2{
+            background-color: aqua;
+            font-size: large;
+            position: fixed;
+            bottom: 15px;
+            right: 5px;
+        }
+        #some_id2:hover{
+            background-color: chartreuse;
+        }
+        #Zottman-Curl{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+            
+        }
+        .boxContainer{
+            text-decoration: underline;
+        }
+        
+        
+        
+    </style>
+    <head>
+    
+    
+    <h1><span class="boxContainer" >THE FOREARM MUSCLE</span></h1>
+    
+    </head>
+    <body>
+    <p style="font-family: 'Courier New', Courier,monospace;font-size: x-large;color: burlywood; text-align: justify; font-weight: 400;"></p>
+    <span>
+        <img src="FOREARMS.jpg" width="600px" height="300">
+    </span>
+        
+    <span>
+    <h2 id="Exercises">Activities that activate the muscles in the forearm</h2></span>
+        
+    <div>
+        <h2 id="Pull-Up">PULL-UP BAR HANG</h2>
+    </div>
+        
+    <div>
+        <img src="bb_pullup-bar-hang_web1-square.jpg">
+    </div>
+        
+    <div id="colorId">
+        <ul>
+            <li style="text-decoration: underline;" ><strong>SETUP</strong></li>
+             <ul>
+                 <li>Grab a pull-up bar with a shoulder-width grip, palms facing forward.</li>
+            
+             </ul>
+             <li style="margin:20px; margin-left: 3px; text-decoration: underline;"><strong>HOW TO PERFORM</strong></li>
+             <ul>
+                 <li>Hang at arm’s length for 30 seconds with your arms straight and your ankles crossed behind you.</li>
+             </ul>
+        </ul>
+        
+        </div>
+        
+        <div>
+            <h2 id="Zottman-Curl">ZOTTMAN CURL</h2>
+        </div>
+        
+        <div>
+            <img src="zottman-curl-demonstration.gif" width="400px">
+        </div>
+        
+        <div id="colorId">
+            <ul>
+                <li style="text-decoration: underline;"><strong>STARTING POSITION</strong></li>
+                <ul>
+                    <li>Stand tall holding a dumbbell in each hand at arm’s length by your sides, palms facing forward (underhand grip).</li>
+                </ul>
+                <li style="margin: 20px; margin-left: 3px; text-decoration: underline;"><strong>PERFORMANCE</strong></li>
+                <ul>
+                    <li>Keeping your elbows tucked and locked by your sides, curl the weights toward your shoulders.</li>
+                    <li>Flip your grip 180 degrees (to overhand), lower the weights back down to your sides, and then flip your grip again (to underhand) to return to the starting position.</li>
+                </ul>
+                <li style="margin: 20px; margin-left: 3px; text-decoration: underline;"><strong>BENEFITS</strong></li>
+                <ul>
+                    <li>The mid-move flip of the wrist is what gives the Zottman Curl its forearm-strengthening edge, as it fires up the brachioradialis while also working the biceps.</li>
+                </ul>
+            </ul>
+        </div>
+        
+        
+        
+        
+        <button id="some_id">Previous page</button>
+        <button id="some_id2">Next page</button>
+        
+        <footer style="font-size: large; text-align: center; color: burlywood ">ANASTASIOS MEGALOS CITY COLLEGE</footer>
+        
+        
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                
+            var x=document.getElementById('some_id');
+            x.addEventListener('click',button);
+                
+                
+            function button(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Forearm/Forearm.html"
+                
+            }
+                
+                });
+            
+            
+            function pointToSection(ZottmanCurl){
+            var X=document.getElementById(Zottman-Curl);
+            X.scrollIntoView({behavior:'smooth'});
+                
+            }
+            document.addEventListener('DOMContentLoaded',function(){
+            var y=document.getElementById('some_id2');
+            y.addEventListener('click',button2);
+                
+                
+            function button2(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Upper%20Back/Upper%20Back.html"
+            }
+                
+                });
+            
+            
+            function pointToSection(PullUp){
+            var s=document.getElementById(Pull-Up);
+            s.scrollIntoView({behavior:'smooth'});
+                
+                
+            }
+            
+        </script>
+    </body>
+</html>

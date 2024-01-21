@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <title>Calves</title>
+    <style>
+        h1{
+            display: block;
+            margin: auto;
+            text-align: center;
+            
+            
+        }
+        
+        body{
+            background-color: darkslategray;
+            color: burlywood;
+        }
+        #orange{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            border:1px solid black;
+            display: inline;
+            background-color: orange;
+            position: relative;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #red{
+            
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            margin-top: 0px;
+            border:1px solid black; margin-bottom: 0px;
+            display: inline;
+            background-color: crimson;
+            font-family: 'Times New Roman', serif;
+            cursor: pointer;
+        }
+        #brown{
+            font-size: large;
+            font-weight: 400px;
+            margin-left: -5px;
+            border: 1px solid black;
+            display: inline;
+            background-color: brown;
+            font-family: 'Times New Roman', serif;
+            
+            
+            
+        }
+        #Exersises{
+            text-align: center;
+            font-family:'Serif Fonts','Sans-Serif Fonts';
+            font-size: xx-large;
+            font-weight: 900;
+            padding: block;
+            display: block;
+            background-color: darkslategray;
+            color: burlywood;
+            text-decoration: underline;
+        }
+        #Jumping-Jack{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+        }
+        #some_id{
+            background-color: aquamarine;
+            font-size: large;
+        }
+        #some_id:hover{
+            background-color: chartreuse;
+            
+        }
+        #colorId{
+            color: burlywood;
+            font-size: x-large;
+            list-style-type: lower-latin;
+        }
+        #some_id2{
+            background-color: aqua;
+            font-size: large;
+            position: fixed;
+            bottom: 15px;
+            right: 5px;
+        }
+        #some_id2:hover{
+            background-color: chartreuse;
+        }
+        #Ankle-Mobilization{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+            
+        }
+        .boxContainer{
+            text-decoration: underline;
+        }
+        
+        
+        
+    </style>
+    <head>
+    
+    
+    <h1><span class="boxContainer" >CALVES WORKOUT</span></h1>
+    
+    </head>
+    <body>
+    <p style="font-family: 'Courier New', Courier,monospace;font-size: x-large;color: burlywood; text-align: justify; font-weight: 400;"></p>
+    <span>
+        <img src="calves.jpg" width="500px" height="400">
+    </span>
+        
+    <span>
+    <h2 id="Exercises">Exercises focusing on the calves</h2></span>
+        
+    <div>
+        <h2 id="Jumping-Jack">JUMPING JACK</h2>
+    </div>
+        
+    <div>
+        <img src="JUMPINGJACK.jpg" width="500px" height="450" >
+    </div>
+        
+    <div id="colorId">
+        <ul>
+            <li style="text-decoration: underline;" ><strong>How to Do It:</strong></li>
+             <Ol>
+                    <li>Stand with your feet together and arms at your sides.</li>
+                    <li>Jump and spread your legs outside shoulder width as you clap your hands overhead.</li>
+                    <li>Jump and return your hands and feet to the starting position.</li>
+            
+             </Ol>
+        </ul>
+        
+        </div>
+        
+        <div>
+            <h2 id="Ankle-Mobilization">ANKLE MOBILIZATION</h2>
+        </div>
+        
+        <div>
+            <img src="ankle.jpg" width="500px" height="400">
+        </div>
+        
+        <div id="colorId">
+            <ul>
+                <li style="text-decoration: underline;"><strong>INSTUCTIONS:</strong></li>
+                <ol>
+                    <li>Place your toes on a mat or block so they’re elevated above your heels.</li>
+                    <li>Bend one knee, pushing it forward so you feel a stretch in your calf.</li>
+                    <li>Draw your leg back.</li>
+                    <li>Repeat this motion for the desired number of reps, and then switch legs.</li>
+                </ol>
+            </ul>
+        </div>
+        
+        
+        
+        
+        <button id="some_id">Previous page</button>
+        <button id="some_id2">Next page</button>
+        
+        <footer style="font-size: large; text-align: center; color: burlywood "> ANASTASIOS MEGALOS CITY COLLEGE</footer>
+        
+        
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                
+            var x=document.getElementById('some_id');
+            x.addEventListener('click',button);
+                
+                
+            function button(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Obliques/Obliques.html"
+            }
+                
+                });
+            
+            
+            function pointToSection(AnkleMobilization){
+            var X=document.getElementById(Ankle-Mobilization);
+            X.scrollIntoView({behavior:'smooth'});
+                
+            }
+            document.addEventListener('DOMContentLoaded',function(){
+            var y=document.getElementById('some_id2');
+            y.addEventListener('click',button2);
+                
+                
+            function button2(){
+                window.location.href="file:///C:/Users/TASOS/OneDrive/Documents/Forearm/Forearm.html"
+            }
+                
+                });
+            
+            
+            function pointToSection(JumpingJack){
+            var s=document.getElementById(Jumping-Jack);
+            s.scrollIntoView({behavior:'smooth'});
+                
+                
+            }
+            
+        </script>
+    </body>
+</html>
