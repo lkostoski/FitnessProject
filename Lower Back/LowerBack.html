@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <title>Lower Back</title>
+    <style>
+        h1{
+            display: block;
+            margin: auto;
+            text-align: center;
+           
+           
+        }
+       
+        body{
+            background-color: darkslategray;
+            color: burlywood;
+        }
+        #orange{
+           
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            border:1px solid black;
+            display: inline;
+            background-color: orange;
+            position: relative;
+            font-family: 'Verdana', 'Geneva', sans-serif;   
+           
+           
+           
+        }
+        #red{
+           
+            font-size: large;
+            font-weight: 400;
+            margin-left: -5px;
+            margin-top: 0px;
+            border:1px solid black; margin-bottom: 0px;
+            display: inline;
+            background-color: crimson;
+            font-family: 'Verdana', 'Geneva', sans-serif;
+            cursor: pointer;
+        }
+        #brown{
+            font-size: large;
+            font-weight: 400px;
+            margin-left: -5px;
+            border: 1px solid black;
+            display: inline;
+            background-color: brown;
+            font-family: 'Verdana', 'Geneva', sans-serif;
+           
+           
+           
+        }
+        #Exersises{
+            text-align: center;
+            font-family
+            font-size: xx-large;
+            font-weight: 900;
+            padding: block;
+            display: block;
+            background-color: darkslategray;
+            color: burlywood;
+            text-decoration: underline;
+        }
+        #Swimmers{
+            text-align: center;
+            color: white;
+            background-color: black;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+        }
+        #some_id{
+            background-color: cyan;
+            font-size: large;
+        }
+        #some_id:hover{
+            background-color: chartreuse;
+           
+        }
+        #colorId{
+            color: burlywood;
+            font-size: x-large;
+            list-style-type: lower-latin;
+        }
+        #some_id2{
+            background-color: aqua;
+            font-size: large;
+            position: fixed;
+            bottom: 15px;
+            right: 5px;
+        }
+        #some_id2:hover{
+            background-color: chartreuse;
+        }
+        #Glute-Bridge{
+            text-align: center;
+            color: white;
+            background-color: black;
+            display: inline;
+            font-size: xx-large;
+            margin: bottom 10px;
+           
+        }
+        .boxContainer{
+            text-decoration: underline;
+        }
+       
+       
+       
+    </style>
+    <head>
+   
+   
+    <h1><span class="boxContainer" >THE LOWERBACK MUSCLE</span></h1>
+   
+    </head>
+    <body>
+    <p style="font-family: 'Courier New', Courier,monospace;font-size: x-large;color: burlywood; text-align: justify; font-weight: 400;"></p>
+    <span>
+        <img src="lowerback.jpg" width="500px" height="350px">
+    </span>
+    <div>
+       
+    </div>
+    
+    <div>
+       
+    </div>
+    <div>
+       
+    </div>
+       
+    
+       
+    <div>
+       
+    </div>
+       
+    <div>
+       
+    </div>
+       
+    
+       
+    <span>
+    <h2 id="Exercises">EXCERCISES THAT TRAIN THE LOWERBACK </h2></span>
+       
+    <div>
+        <h2 id="Swimmers"></h2>
+    </div>
+       
+    <div>
+        <img src="lowerback1.jpg" width="400px" height="270px">
+    </div>
+       
+    <div id="colorId">
+        <ul>
+            <li style="text-decoration: underline;" ><strong>SETUP</strong></li>
+             <ul>
+                 <li>Open the legs as wide as the hips and the arms as wide as the shoulders.</li>
+           
+             </ul>
+             <li style="margin:20px; margin-left: 3px; text-decoration: underline;"><strong>HOW TO EXECUTE</strong></li>
+             <ol>
+                 <li>Pull the belly button in, away from the ground, to engage the abs.</li>
+                 <li>Relax the shoulders as you reach the arms up off the ground and squeeze the quads as you lift the legs off the ground.</li>
+                
+                 
+             </ol>
+       
+        </ul>
+       
+        </div>
+        
+        <div>
+            <h2 id="Glute-Bridge">GLUTE BRIDGE</h2>
+        </div>
+        <div>
+            <img src="lowerback3.jpg" width="400px">
+        </div>
+       
+        <div id="colorId">
+           
+            <ul>
+                <li style="text-decoration: underline;"><strong>STARTING POSITION</strong></li>
+                <ul>
+                    <li>Lie on your back with your feet flat on the floor and knees bent.</li>
+                </ul>
+                <li style="margin: 20px; margin-left: 3px; text-decoration: underline;"><strong>HOW TO PERFORM</strong></li>
+                <ol>
+                    <li>Engage your core, pressing your low back into the ground.</li>
+                    <li>Then, slowly curl your back off the ground driving your hips toward the sky.</li>
+                    <li>Stop when your hips have created a straight line from your knees to your upper back, hold the position and then slowly lower back down to the starting position. </li>
+                    
+                    
+    
+                </ol>
+            </ul>
+        </div>
+
+        <button id="some_id">Previous page</button>
+        <button id="some_id2">Next page</button>
+       
+        <footer style="font-size: large; text-align: center; color: burlywood "> DIMITRIOS TROULLOS CITY COLLEGE</footer>
+       
+       
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+               
+            var x=document.getElementById('some_id');
+            x.addEventListener('click',button);
+               
+               
+            function button(){
+                window.location.href="file:///C:/Users/user/Documents/Chest/Chest.html"
+            }
+               
+                });
+           
+           
+            function pointToSection(Swimmers){
+            var X=document.getElementById(Swimmers);
+            X.scrollIntoView({behavior:'smooth'});
+               
+            }
+            document.addEventListener('DOMContentLoaded',function(){
+            var y=document.getElementById('some_id2');
+            y.addEventListener('click',button2);
+               
+               
+            function button2(){
+                window.location.href="file:///C:/Users/user/Documents/Shoulder/Shoulder.html"
+            }
+               
+                });
+           
+           
+            function pointToSection(GluteBridge){
+            var s=document.getElementById(Glute-Bridge);
+            s.scrollIntoView({behavior:'smooth'});
+               
+               
+            }
+           
+        </script>
+    </body>
+</html>
