@@ -1,3 +1,5 @@
+/*LJUPCHO KOSTOSKI*/
+
 body {
   background-color: darkslategrey;
 }
@@ -20,7 +22,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-footer{
+.footers{
     height:70px;
     padding: 20px 10px;
     position: fixed;
@@ -31,6 +33,7 @@ footer{
     font-weight: bold;
     font-style: italic;
     color:darkslategray;
+    text-align: right;
 }
 .container-fluid{
     background-color: burlywood;
@@ -54,4 +57,19 @@ footer{
 }
 footer>a{
     color:darkslategray;
+}
+button{
+    background-color: darkslategray;
+    color: burlywood;
+    font-weight:500;
+    border:0px;
+}
+#backToTop{
+    float:left;
+    color: darkslategray;
+    background-color: burlywood;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:underline;
+    
 }
